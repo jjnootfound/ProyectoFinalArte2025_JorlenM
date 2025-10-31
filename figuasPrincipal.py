@@ -2,6 +2,8 @@ import pandas as pd
 
 dataFile = pd.read_csv("figuras.csv")
 
+print("procesando figuras... \n")
+
 areas = []
 perimetros = []
 
