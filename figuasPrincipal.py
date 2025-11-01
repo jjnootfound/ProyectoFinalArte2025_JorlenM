@@ -6,8 +6,7 @@ dataFile = pd.read_csv("figuras.csv")
 
 print("procesando figuras... \n")
 
-areas = []
-perimetros = []
+
 
 for index, row in dataFile.iterrows():
 	if row["FIGURA"] == "t":
